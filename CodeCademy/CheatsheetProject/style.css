@@ -1,0 +1,36 @@
+.title {
+  color: Orange;
+  text-align: center;
+  font-family: Georgia;
+}
+
+table, th, td {
+  text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+}
+
+th, td {
+  padding: 15px;
+}
+
+table {
+  width: 100%;
+}
+
+.CSSObject, .Description {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.left {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Helvetica;
+}
