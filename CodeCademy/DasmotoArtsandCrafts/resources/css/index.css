@@ -1,0 +1,43 @@
+.main_title {
+    background-image: url("../images/pattern.jpeg");
+    font-family: Helvetica;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: khaki;
+}
+
+.brushes_title {
+    background-color: mediumspringgreen;
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.hacksaw_title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.pricing {
+    font-family: Helvetica;
+    font-weight: bold;
+    color: blue;
+}
+
+.frames_title {
+    background-color: lightcoral;
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.paint_title {
+    background-color: skyblue;
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
