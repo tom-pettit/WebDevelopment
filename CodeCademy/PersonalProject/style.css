@@ -1,0 +1,86 @@
+body {
+  margin: 0 auto;
+  background-color: rgba(10, 10, 10, 0.3)
+}
+
+header {
+  background-color: grey;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+ul {
+  margin: 50px auto;
+  padding: 0 40px;
+  text-align: center;
+}
+
+li {
+  color: rgba(30, 10, 10, 1);
+  font-family: 'Helvetica';
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 80px;
+}
+
+li:hover {
+  color: rgba(250, 0, 0, 1)
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: 'Helvetica';
+  position: inline;
+}
+
+p {
+  color: rgba(10, 10, 30, 0.6);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Varela Round';
+  display: inline;
+}
+
+.welcome {
+  background-color: rgba(10, 10, 10, 0.4);
+  position: relative;
+  padding: 40px 0;
+  width: 100%;
+  top: 120px;
+  text-align: center;
+}
+
+.welcome-span {
+  color: rgba(15, 10, 10, 0.5);
+}
+
+.colour1 {
+  position: absolute;
+  top: 375px;
+  padding: 40px;
+}
+
+.colour2 {
+  position: absolute;
+  padding: 40px;
+  top: 650px;
+}
+
+#orange-pic {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 50px;
+  left: 450px;
+}
+
+#blue-pic {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 50px;
+  left: 450px;
+}
