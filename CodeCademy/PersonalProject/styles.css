@@ -16,7 +16,7 @@ ul {
   text-align: center;
 }
 
-li {
+li, a {
   color: rgba(30, 10, 10, 1);
   font-family: 'Helvetica';
   font-size: 16px;
@@ -26,7 +26,11 @@ li {
   width: 80px;
 }
 
-li:hover {
+a {
+    text-decoration: none;
+}
+
+a:hover {
   color: rgba(250, 0, 0, 1)
 }
 
@@ -44,6 +48,14 @@ p {
   display: inline;
 }
 
+.footer {
+  position: absolute;
+  top: 1250px;
+  text-align: center;
+  width: 100%;
+  padding: 40px 0;
+}
+
 .welcome {
   background-color: rgba(10, 10, 10, 0.4);
   position: relative;
@@ -57,27 +69,25 @@ p {
   color: rgba(15, 10, 10, 0.5);
 }
 
-.colour1 {
+#colour1 {
   position: absolute;
   top: 375px;
   padding: 40px;
 }
 
-.colour2 {
+#colour2 {
   position: absolute;
   padding: 40px;
   top: 650px;
 }
 
-#orange-pic {
-  height: 100px;
-  width: 100px;
+#colour3 {
   position: absolute;
-  top: 50px;
-  left: 450px;
+  padding: 40px;
+  top: 925px;
 }
 
-#blue-pic {
+.pic {
   height: 100px;
   width: 100px;
   position: absolute;
