@@ -1,0 +1,51 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0px;
+}
+
+nav {
+    text-align: center;
+    background-color: grey; 
+    font-family: "Manjari";
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+    font-size: 2rem;
+    padding: 20px;
+    text-transform: uppercase;
+    color: lime;
+    text-decoration: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: lime;
+    text-decoration: none;
+}
+
+li:hover {
+    color: crimson;
+}
+
+.menu {
+    background-color: grey;
+    width: 100%;
+    position: fixed;
+}
+
+.content {
+    padding: 102px 0px;
+}
